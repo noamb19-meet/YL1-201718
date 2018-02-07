@@ -8,11 +8,13 @@ import math
 
 turtle.hideturtle()
 turtle.tracer(0)
+turtle.bgpic("pic2.gif")
+turtle.bgcolor("lightgreen")
 RUNNING=True
 SLEEP=0.0077
 SCREEN_WIDTH=turtle.getcanvas().winfo_width()/2
 SCREEN_HEIGHT=turtle.getcanvas().winfo_height()/2
-MY_BALL=Ball(0,0,0,0,20,"red")
+MY_BALL=Ball(0,0,0,0,40,"black")
 NUMBER_OF_BALLS=5
 MINIMUM_BALL_RADIUS=10
 MAXIMUM_BALL_RADIUS=50
